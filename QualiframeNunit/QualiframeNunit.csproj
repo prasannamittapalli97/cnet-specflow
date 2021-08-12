@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+
+    <UserSecretsId>02f7c1fb-6a2c-471d-87d8-a1ec13c9da12</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NUnit" Version="3.13.2" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.16.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
+    <PackageReference Include="Qualiframe.ExtentReporting.NUnit" Version="1.21.514.704" />
+    <PackageReference Include="Qualiframe.Web" Version="1.21.331.653" />
+    <PackageReference Include="Qualiframe.Web.NUnit" Version="1.21.331.653" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="91.0.4472.10100" />
+    <PackageReference Include="SpecFlow.NUnit" Version="3.9.8" />
+  </ItemGroup>
+
+</Project>
